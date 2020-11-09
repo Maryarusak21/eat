@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Бургер от енота</title>
+    </head>
+    <body>
+        <h2>Здравствуйте!</h2>
+        <h3>Сделайте ваш заказ и нажмите отправить для подтверждения заказа.</h3>
+        <h3>С уважением,ваш енот :)</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <span><h4>1. Степень прожарки мяса</h4></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Medium rare</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Medium</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Medium well</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Well done</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span><h4>2. Количество котлет</h4></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>1</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>2</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>3</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span><h4>3. Начинка</h4></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Салат</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Помидоры</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Огурцы свежие</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Огурцы соленые</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Лук</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Сыр</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <spen>Майонез</spen>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Сырный соус</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Кетчуп</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Горчица</span>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span><h4></h4></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Имя</span>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Фамилия</span>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Пожелания</span>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action='action.html'>
+                            <hr>
+                            <input type="submit">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span><h2> </h2></span>
+                    </td>
+                    <td>
+                        <img src="img/сакура.jpg">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
