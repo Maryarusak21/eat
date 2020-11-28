@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>СОЗДАНИЕ БУРГЕРА</title>
+        <link rel='stylesheet' href='styie.css'>
+    </head>
+    <body>
+        <from>
+            <h1> СОЙДАЙ СВОЙ БУРГЕР!</h1>
+            <label for='meet'>Какое мясо</label>
+            <input type='text' id='meet' name='meet'>
+            <hr>
+            <label for='amount'>Сколько котлет</label>
+            <input type='text' id='amount' name='amount' value='1'>
+            <hr>
+            <label for='doneness'>Степень прожарки</label>
+            <br>
+            <span>Слабо</span>
+            <input type='range' id='doneness' name='done'>
+            <span>Сильно</span>
+            <hr>
+            <label for='added'>Что добавить?</label>
+            <br>
+            <label for='vegs'>Овощи</label>
+            <input type='checkbox' id='vegs' name='vegs' value='vegs'>
+            <br>
+            <label for='add_vegs'>Доп огурчики</label>
+            <input type='checkbox' id='add_vegs' name='add_vegs' value='add_vegs'>
+            <br>
+            <label for='add_sauce'>Доп соусы</label>
+            <input type='checkbox' id='add_sauce' name='add_sauce' value='add_vegs'>
+            <hr>
+            <label for='cheese'>Доп сыр</label>
+            <br>
+            <input type='radio' id='Yes' value='Yes' name='cheese'>
+            <label for='Yes'>Да хочу</label> 
+            <br>
+            <input type='radio' id='No' value='No' name='cheese'>
+            <label for='No'>Нее</label>
+            <hr>
+            <label for='bon'>Какая булка</label>
+            <select name='bon' id='bon'>
+                 <option value='standard'>Обычная</option> 
+                 <option value='saesam'>С кунжутом</option>
+                 <option value='poteto'>Картофельная</option>
+            </select>
+            <hr>
+            <label for='sauce'>Какой соус хотите?</label>
+            <input type='sauce_list' id='sauce' name='sause'> 
+            <datalist id='sauce_list'>
+                <option value='Кетчуп'>Кетчуп</option>
+                <option value='Сырный'>Сырный</option>
+                <option value='Барбекю'>Барбекю</option> 
+            </datalist>
+        </from>
+    </body>
+</html>
